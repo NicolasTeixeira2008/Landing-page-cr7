@@ -5,18 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page Cristiano Ronaldo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
     <header>
         <nav>
             <div class="logo">
-                <img src="" alt="">
+                <img src="assets/logo.jfif" alt="">
             </div>
             <menu>
-                <a href="">Titulos</a>
-                <a href="">Galeria</a>
-                <a href="">Biografia</a>
+                <a href="#inicio">inicio</a>
+                <a href="#titulos">Titulos</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#biografia">Biografia</a>
             </menu>
         </nav>
     </header>
@@ -39,8 +42,8 @@
                 <div class="thumb" onclick="trocaimg('cris.jfif')">
                     <img src="assets/cris.jfif" alt="">
                 </div>
-                <div class="thumb" onclick="trocaimg('cristiano-ronaldo-como-jogador-do-sporting-1563322112864_v2_450x450.jpg')">
-                    <img src="assets/cristiano-ronaldo-como-jogador-do-sporting-1563322112864_v2_450x450.jpg" alt="">
+                <div class="thumb" onclick="trocaimg('sporting.jfif')">
+                    <img src="" alt="">
                 </div>
                 <div class="thumb" onclick="trocaimg('cristiano-ronaldo-juventus-1589897013-39110.jpg')">
                     <img src="assets/cristiano-ronaldo-juventus-1589897013-39110.jpg" alt="">
@@ -51,14 +54,14 @@
             </div>
             <div class="large">
                 <div class="img-large">
-                    <img src="assets/GettyImages-2156554906.webp" alt="">
+                    <img src="assets/GettyImages-2156554906.webp" alt="" id="fotoGrande">
                 </div>
             </div>
-            <p id="desc">Texto Descritivo</p>
+
         </div>
     </section>
-    <h2>Titulos</h2>
-    <section id="Titulos">
+    <section id="titulos">
+        <h2>Títulos</h2>
         <li>1 titulo pelo sporting de portugal</li>
         <li>6 titulos pelo manchester united</li>
         <li>6 titulos pelo real madrid</li>
@@ -68,8 +71,9 @@
         <li>76 titulos individuais</li>
         <p>Entre os principais titulos de Cristiano Ronaldo contemos 5 champions league, 5 bolas de ouro, 1 Eurocopa etc...</p>
     </section>
-    <h2>Bibliografia</h2>
-    <section id="Bibiografia">
+
+    <section id="biografia">
+        <h2>Biografia</h2>
         <p>Cristiano Ronaldo dos Santos Aveiro OIH • GOIH • ComM (Funchal, 5 de fevereiro de 1985) é um futebolista português que atua como ponta-esquerda ou avançado.[12][13] Atualmente joga pelo Al-Nassr, da Arábia Saudita, onde venceu a Liga dos Campeões
             Árabes de 2023.[14] É capitão pela Seleção Portuguesa, onde conquistou a Eurocopa de 2016 e a Liga das Nações em 2018-19. É o maior artilheiro da história do futebol em jogos oficiais com 893 golos, [15][16] sendo simultaneamente o jogador
             com mais golos na história a nível de seleções com 128 golos, bem como a nível de clubes com 765 golos.[17] Escalado no Dream Team da Bola de Ouro, também o jogador com o maior número de nomeações do prêmio Ballon d'Or.[18][19] Durante sua
@@ -78,6 +82,10 @@
 
     </section>
 
+    <footer>
+        <p>&copy; 2024. Landing Page Cristiano Ronaldo. Projeto Educacional.</p>
+        <p>Desenvolvido por Nicolas Teixeira</p>
+    </footer>
 </body>
 
 </html>
